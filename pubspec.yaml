@@ -13,6 +13,7 @@ dependencies:
   cupertino_icons: ^1.0.8
   flutter_3d_controller: ^2.3.0
   model_viewer_plus: ^1.10.0
+  model_viewer_pro: ^2.0.1
 
 dev_dependencies:
   flutter_test:
