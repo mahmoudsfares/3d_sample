@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:three_d_sample/model_viewer_pro.dart';
+import 'package:three_d_sample/3d_display/model_viewer_pro.dart';
+import 'package:three_d_sample/ar/augen_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter 3D Demo',
       theme: ThemeData(colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple)),
       // TODO: change home according to the dependency
-      home: ModelViewerProWidget(),
+      home: AugenScreen(),
     );
   }
 }
